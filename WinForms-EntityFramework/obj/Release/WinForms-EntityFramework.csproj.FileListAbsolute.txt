@@ -1,0 +1,9 @@
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\WinForms-EntityFramework.dll.config
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\WinForms-EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\WinForms-EntityFramework.pdb
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\EntityFramework.xml
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\ShopProject\WinForms-EntityFramework\obj\Release\WinForms-EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\obj\Release\WinForms-EntityFramework.pdb

@@ -1,0 +1,10 @@
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\WinForms-EntityFramework.dll.config
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\WinForms-EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\WinForms-EntityFramework.pdb
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\EntityFramework.xml
+D:\Projects\ShopProject\WinForms-EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ShopProject\WinForms-EntityFramework\obj\Debug\WinForms-EntityFramework.dll
+D:\Projects\ShopProject\WinForms-EntityFramework\obj\Debug\WinForms-EntityFramework.pdb
+D:\Projects\ShopProject\WinForms-EntityFramework\obj\Debug\WinForms-EntityFramework.csprojResolveAssemblyReference.cache

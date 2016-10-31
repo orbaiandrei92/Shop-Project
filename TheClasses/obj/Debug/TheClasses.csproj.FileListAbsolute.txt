@@ -1,0 +1,5 @@
+D:\Projects\ShopProject\TheClasses\obj\Debug\TheClasses.csprojResolveAssemblyReference.cache
+D:\Projects\ShopProject\TheClasses\bin\Debug\TheClasses.dll
+D:\Projects\ShopProject\TheClasses\bin\Debug\TheClasses.pdb
+D:\Projects\ShopProject\TheClasses\obj\Debug\TheClasses.dll
+D:\Projects\ShopProject\TheClasses\obj\Debug\TheClasses.pdb

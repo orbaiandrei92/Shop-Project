@@ -1,0 +1,104 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ShopProject.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Name1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bag 1</Value>
+    </Setting>
+    <Setting Name="Name2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Bag 2</Value>
+    </Setting>
+    <Setting Name="Name3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jewelry 1</Value>
+    </Setting>
+    <Setting Name="Name4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jewelry 2</Value>
+    </Setting>
+    <Setting Name="Name5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Wallet</Value>
+    </Setting>
+    <Setting Name="Name6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hat</Value>
+    </Setting>
+    <Setting Name="Price1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30 $</Value>
+    </Setting>
+    <Setting Name="Price2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">40 $</Value>
+    </Setting>
+    <Setting Name="Price3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">15 $</Value>
+    </Setting>
+    <Setting Name="Price4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20 $</Value>
+    </Setting>
+    <Setting Name="Price5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">12 $</Value>
+    </Setting>
+    <Setting Name="Price6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10 $</Value>
+    </Setting>
+    <Setting Name="Name7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jeans 1</Value>
+    </Setting>
+    <Setting Name="Name8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jeans 2</Value>
+    </Setting>
+    <Setting Name="Name9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jeans 3</Value>
+    </Setting>
+    <Setting Name="Name10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jeans 4</Value>
+    </Setting>
+    <Setting Name="Name11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jeans 5</Value>
+    </Setting>
+    <Setting Name="Price7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">18 $</Value>
+    </Setting>
+    <Setting Name="Price8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">25 $</Value>
+    </Setting>
+    <Setting Name="Price9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30 $</Value>
+    </Setting>
+    <Setting Name="Price10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">27 $</Value>
+    </Setting>
+    <Setting Name="Price11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30 $</Value>
+    </Setting>
+    <Setting Name="Name12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T-shirt 1</Value>
+    </Setting>
+    <Setting Name="Name13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T-shirt 2</Value>
+    </Setting>
+    <Setting Name="Name14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T-shirt 3</Value>
+    </Setting>
+    <Setting Name="Name15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T-shirt 4</Value>
+    </Setting>
+    <Setting Name="Price12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10 $</Value>
+    </Setting>
+    <Setting Name="Price13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">11 $</Value>
+    </Setting>
+    <Setting Name="Price14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">11 $</Value>
+    </Setting>
+    <Setting Name="Price15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10 $</Value>
+    </Setting>
+    <Setting Name="CustomerConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-677BDBL;Initial Catalog=Customer;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-677BDBL;Initial Catalog=Customer;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

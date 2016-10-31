@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerId" />
+    </Key>
+    <Property Name="CustomerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nchar" MaxLength="23" Nullable="false" />
+    <Property Name="LastName" Type="nchar" MaxLength="23" Nullable="false" />
+    <Property Name="Email" Type="nchar" MaxLength="33" Nullable="false" />
+    <Property Name="Phone" Type="nchar" MaxLength="16" Nullable="false" />
+    <Property Name="UserName" Type="nchar" MaxLength="18" Nullable="false" />
+    <Property Name="Password" Type="nchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Address" Type="nchar" MaxLength="53" Nullable="false" />
+    <Property Name="City" Type="nchar" MaxLength="28" Nullable="false" />
+    <Property Name="Region" Type="nchar" MaxLength="28" Nullable="false" />
+    <Property Name="Country" Type="nchar" MaxLength="26" Nullable="false" />
+    <Property Name="PostalCode" Type="nchar" MaxLength="16" Nullable="false" />
+    <Property Name="Fax" Type="nchar" MaxLength="23" Nullable="false" />
+    <Property Name="ShipVia" Type="nchar" MaxLength="16" Nullable="false" />
+    <Property Name="TotalItems" Type="int" Nullable="false" />
+    <Property Name="TotalPrice" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+  </EntityType>
+  <Association Name="FK__Orders__Customer__02FC7413">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CustomerModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Orders__Customer__02FC7413" Association="Self.FK__Orders__Customer__02FC7413">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

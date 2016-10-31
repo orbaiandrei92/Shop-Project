@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9D16B23-5725-471A-BA7F-53496B9DBB11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopProject</RootNamespace>
+    <AssemblyName>ShopProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessoriesDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessoriesDesign.Designer.cs">
+      <DependentUpon>AccessoriesDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsDesign.Designer.cs">
+      <DependentUpon>DetailsDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JeansDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JeansDesign.Designer.cs">
+      <DependentUpon>JeansDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginDesign.Designer.cs">
+      <DependentUpon>LoginDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="OrderDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDesign.Designer.cs">
+      <DependentUpon>OrderDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpDesign.Designer.cs">
+      <DependentUpon>SignUpDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TshirtsDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TshirtsDesign.Designer.cs">
+      <DependentUpon>TshirtsDesign.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccessoriesDesign.resx">
+      <DependentUpon>AccessoriesDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsDesign.resx">
+      <DependentUpon>DetailsDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JeansDesign.resx">
+      <DependentUpon>JeansDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginDesign.resx">
+      <DependentUpon>LoginDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDesign.resx">
+      <DependentUpon>OrderDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpDesign.resx">
+      <DependentUpon>SignUpDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TshirtsDesign.resx">
+      <DependentUpon>TshirtsDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CustomerDataSet.xsc">
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerDataSet.xss">
+      <DependentUpon>CustomerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDataSet1.xsc">
+      <DependentUpon>CustomerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerDataSet1.xss">
+      <DependentUpon>CustomerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WinForms_EntityFramework.Customer.datasource" />
+    <None Include="WinForms_EntityFramework.CustomerEntities.datasource" />
+    <None Include="WinForms_EntityFramework.Order.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-shirt 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Accessory5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Best Buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeans0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeans1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeans2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeans3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeans4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-shirt 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-shirt 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T-shirt 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping Cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheClasses\TheClasses.csproj">
+      <Project>{e7e592d5-4616-4c03-8f9a-81599709a957}</Project>
+      <Name>TheClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinForms-EntityFramework\WinForms-EntityFramework.csproj">
+      <Project>{2dee4621-3d1a-4e04-a692-6f19d440d91c}</Project>
+      <Name>WinForms-EntityFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.WUUD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.WUUD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.WUUD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06.WUUD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informations.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrderNow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Return Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

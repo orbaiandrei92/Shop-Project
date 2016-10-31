@@ -1,0 +1,11 @@
+D:\Projects\ShopProject\ShopProject\bin\Release\ShopProject.exe.config
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.csprojResolveAssemblyReference.cache
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.AccessoriesDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.JeansDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.LoginDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.OrderDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.Properties.Resources.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.Shop.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.SignUpDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.TshirtsDesign.resources
+D:\Projects\ShopProject\ShopProject\obj\Release\ShopProject.csproj.GenerateResource.Cache
